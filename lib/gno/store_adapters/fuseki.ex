@@ -4,8 +4,8 @@ defmodule Gno.Store.Adapters.Fuseki do
 
   ## Manifest Configuration
 
-      @prefix gno:  <http://gno.app/> .
-      @prefix gnoa: <http://gno.app/ns/adapter/> .
+      @prefix gno:  <https://w3id.org/gno#> .
+      @prefix gnoa: <https://w3id.org/gno/store/adapter/> .
 
       <Fuseki> a gnoa:Fuseki
           ; gno:storeEndpointScheme "http"         # optional (default: "http")

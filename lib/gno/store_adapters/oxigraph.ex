@@ -4,8 +4,8 @@ defmodule Gno.Store.Adapters.Oxigraph do
 
   ## Manifest Configuration
 
-      @prefix gno:  <http://gno.app/> .
-      @prefix gnoa: <http://gno.app/ns/adapter/> .
+      @prefix gno:  <https://w3id.org/gno#> .
+      @prefix gnoa: <https://w3id.org/gno/store/adapter/> .
 
       <Oxigraph> a gnoa:Oxigraph
           ; gno:storeEndpointScheme "http"     # optional (default: "http")

@@ -7,8 +7,8 @@ defmodule Gno.Store.Adapters.Qlever do
 
   ## Manifest Configuration
 
-      @prefix gno:  <http://gno.app/> .
-      @prefix gnoa: <http://gno.app/ns/adapter/> .
+      @prefix gno:  <https://w3id.org/gno#> .
+      @prefix gnoa: <https://w3id.org/gno/store/adapter/> .
 
       <Qlever> a gnoa:Qlever
           ; gno:storeEndpointScheme "http"          # optional (default: "http")

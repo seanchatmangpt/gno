@@ -9,7 +9,7 @@ defmodule Gno.Store do
   It can also be used directly as a generic adapter for any SPARQL 1.1
   protocol-compliant triple store that has no dedicated adapter implementation:
 
-      @prefix gno: <http://gno.app/> .
+      @prefix gno: <https://w3id.org/gno#> .
 
       <MyStore> a gno:Store
           ; gno:storeQueryEndpoint <http://localhost:7878/query>       # required

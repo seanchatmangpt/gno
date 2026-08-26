@@ -9,7 +9,7 @@ defmodule Gno.CommitLogger do
 
   ## Manifest Configuration
 
-      @prefix gno: <http://gno.app/> .
+      @prefix gno: <https://w3id.org/gno#> .
 
       <Service> a gno:Service
           ; gno:serviceCommitOperation <CommitOperation>
