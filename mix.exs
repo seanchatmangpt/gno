@@ -96,9 +96,9 @@ defmodule Gno.MixProject do
       {:tesla, "~> 1.2"},
       {:jason, "~> 1.4"},
       {:hackney, "~> 4.3", only: [:dev, :test]},
-      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.40", only: [:dev, :test], runtime: false}
+      {:dialyxir, "~> 1.4", only: :dev, runtime: false},
+      {:credo, "~> 1.7", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.40", only: :dev, runtime: false}
     ]
   end
 
@@ -195,7 +195,7 @@ defmodule Gno.MixProject do
         "compile --warnings-as-errors",
         "format --check-formatted",
         "test --cover --warnings-as-errors",
-        "credo"
+        "cmd MIX_ENV=dev mix credo"
       ]
     ]
   end
